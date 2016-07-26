@@ -1,2 +1,2 @@
 # ldpctk
-Web site pessoal com coisas aleatorias
+Web site pessoal com coisas aleatorias http://ldpc.tk
