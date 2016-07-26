@@ -1,0 +1,11 @@
+.conteudo a#back{
+    margin-top: 70vh;
+}
+.conteudo img{
+    width: 58vw;
+    height: 58vh;
+}
+.conteudo a{
+    text-decoration: none;
+    color: white;
+}

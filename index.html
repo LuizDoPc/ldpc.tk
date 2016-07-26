@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+            });
+        });
+    </script>
+    <meta charset="UTF-8">
+    <title>Home LDPC.TK</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="home">
+           <span class="titulos">LDPC.TK</span>
+           <a href="jogos.html">
+                <div class="item" align="center">
+                    <span class="txtitem">Jogos</span>
+                </div>
+           </a>
+           <a href="contato.php">
+                <div class="item" align="center">
+                    <span class="txtitem">Contato</span>
+                </div>
+           </a>
+           <a href="#sobre" class="scroll">
+                <div class="item" align="center">
+                    <span class="txtitem">Sobre</span>
+                </div>
+           </a>
+           <a href="old">
+                <div class="item" align="center">
+                    <span class="txtitem">Old</span>
+                </div>
+           </a>
+    </div>
+
+    <div id="sobre">
+        <span id="txtsobre">Sobre Nós (eu e o site)<Br></span>
+        <div id="sobremin" align="center">
+            O site mudou, a filosofia não.<br><br><br><br><br>
+            <i>"Me ensine algo novo e eu farei algo inútil com isso." -</i><br><br><br><br><br><br>
+            <i>LDPC</i>
+        </div>
+    </div>
+
+
+    <footer>
+       <div>
+           <i>"Copia pro c vê!" - O criador</i><br><br><br><br>
+           Developed by: Luiz Soares
+       </div>
+
+    </footer>
+
+</body>
+</html>

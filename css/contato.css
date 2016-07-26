@@ -1,0 +1,57 @@
+#sugest{
+    width: 25vw;
+    height: 10vw;
+    color: black;
+}
+*{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: url("../img/bg.jpg");
+}
+
+#title{
+    margin-left: 20%;
+    font-family: Impact;
+    font-size: 5vw;
+}
+#form{
+    margin-left: 30%;
+    width: 30vw;
+    display: inline-block;
+}
+#form div.in{
+    display: inline-block;
+}
+.su{
+    margin-left: 35%;
+}
+#sub{
+    background: white;
+    color: black;
+}
+#nome{
+    color:black;
+}
+#email{
+    color:black;
+}
+#resto{
+    display: inline-block;
+}
+.item{
+    width: 10vw;
+    height: 3vw;
+    border: solid 4px white;
+    color: white;
+    font-family: "Brie Light";
+    font-size: 2.5vw;
+    position: inherit;
+    margin-left: 45%;
+}
+.txtitem:hover{
+    text-decoration: underline;
+}

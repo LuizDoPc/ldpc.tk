@@ -1,0 +1,61 @@
+.dentro{
+		float:left;
+		text-align:left;
+		color:#E0E4CC;
+		padding-left:50px;
+		padding-right:50px;
+		border-right:solid #E0E4CC 5px;
+
+}
+#imghome{
+	padding-top:5px;
+	float:left;	
+	border-right:solid #E0E4CC 5px;
+	padding-right:50px;
+}
+#login{
+	float:right;
+	font-size:20px;
+	color:#FA6900;
+	text-align:center;
+	padding-right:15px;
+}
+#menu{
+	font-family:"Comic Sans MS", cursive;
+	float:left;
+	background-color:#A7DBD8;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	min-width:750px;
+	height:auto;
+	text-align:left;
+	z-index:10;
+	font-size:45px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+}
+#post{
+      background-color: white;
+      height: 1000px;
+      width: 800px;
+	  margin-left: 18%;
+	  margin-top: 83px;
+	  box-shadow: black 0px 0px 30px;
+	  padding-left: 10px;
+	  padding-right: 10px;
+    }
+#es{
+	  background-color: #69D2E7;
+	  display: block;
+	  position:fixed;
+	  height: 120px;
+	  width: 210px;
+	  margin-left: 82%;
+	  margin-top: 15%;
+	  box-shadow: black 0px 10px 20px;
+	  font-size: 20px;
+	  font-family: "Comic Sans MS";
+	}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Fotos Book</title>
+
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+  <script src="owlcarousel/jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <script src="owlcarousel/owl.carousel.js"></script>
+  <link rel="stylesheet" href="style.css" media="screen">
+  <link href='https://fonts.googleapis.com/css?family=Pinyon+Script|La+Belle+Aurore|Slabo+27px' rel='stylesheet' type='text/css'>
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: { families: [ 'Pinyon+Script::latin', 'La+Belle+Aurore::latin', 'Slabo+27px::latin' ] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })(); </script>
+
+  <script>
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel({
+        rtl:true,
+        center:true,
+        loop:true,
+        margin:200,
+        autoWidth:true,
+        responsive:{
+          0:{
+            items:1
+          },
+          600:{
+            items:3
+          },
+          1000:{
+            items:5
+          }
+        }
+
+      });
+
+    });
+  </script>
+</head>
+<body>
+  <div id="header1">
+  <h1 id="title1">Simplesmente Ana <span id="qa1">15 Anos</span></h1>
+  </div>
+  <div id="nav" align="center">
+    <ul id="in">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="informacao.html">Informações</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="preparativos.html">Preparativos</a></li>
+      <li><a href="galeria.html">Galeria</a></li>
+    </ul>
+  </div>
+
+  <div class="owl-carousel">
+    <img src="festa/1.jpg" style="width: auto; height: 100vh;" class="item">
+    <img src="festa/2.jpg" style="width: auto; height: auto;" class="item">
+    <img src="festa/3.jpg" style="width: auto; height: auto;" class="item">
+    <img src="festa/4.jpg" style="width: auto; height: auto;" class="item">
+    <img src="festa/5.jpg" style="width: auto; height: 100vh;" class="item">
+    <img src="festa/6.jpg" style="width: auto; height: 100vh;" class="item">
+    <img src="festa/7.jpg" style="width: auto; height: 100vh;" class="item">
+    <img src="festa/8.jpg" style="width: auto; height: auto;" class="item">
+    <img src="festa/9.jpg" style="width: auto; height: 100vh;" class="item">
+    <img src="festa/10.jpg" style="width: auto; height: 100vh;" class="item">
+    <img src="festa/11.jpg" style="width: auto; height: 100vh;" class="item">
+    <img src="festa/12.jpg" style="width: auto; height: 100vh;" class="item">
+    <img src="festa/13.jpg" style="width: auto; height: 100vh;" class="item">
+  </div>
+</body>
+</html>

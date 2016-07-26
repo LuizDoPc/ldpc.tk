@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script>
+
+  <script type="text/javascript">
+    jQuery(document).ready(function($) {
+      $(".scroll").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+      });
+    });
+  </script>
+
+  <style>
+    div#h{
+      height: 1000px;
+      width: auto;
+      background-color: #5cff81;
+      margin-top: -9px;
+
+    }
+    div#hi{
+      background-color: darkcyan;
+      height: 150px;
+      width: 350px;
+      position: relative;
+    }
+    div#im{
+      background-color: #8b2e44;
+      height: 150px;
+      width: 350px;
+      position: relative;
+    }
+    div#luiz{
+      background-color: darkcyan;
+      height: 150px;
+      width: 350px;
+      position: relative;
+    }
+    div#km{
+      background-color: darkcyan;
+      height: 100px;
+      width: 250px;
+      position: relative;
+      float: right;
+      margin-right: 150px;
+    }
+    div#km a{
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+
+  <style>
+    div#dados{
+      height: 1000px;
+      width: auto;
+      background-color: #606060;
+      padding-top: 10px;
+    }
+    div#h2{
+      position: relative;
+      margin-top: 50px;
+      background-color: darkslategray;
+      height: 150px;
+      width: 350px;
+      color: white;
+    }
+    div#data{
+      color: white;
+      font-family: helvetica;
+      font-size: 40px;
+      margin-top: 50px;
+    }
+    div#more{
+      position: relative;
+      float: right;
+      margin-right: 250px;
+      background-color: darkslateblue;
+      height: 100px;
+      margin-top: -10px;
+      color: white;
+    }
+    div#more a{
+      color: white;
+      text-decoration: none;
+    }
+    div#topD{
+      position: relative;
+      float: left;
+      margin-left: 250px;
+      background-color: darkslateblue;
+      height: 100px;
+      margin-top: -10px;
+      color: white;
+    }
+    div#topD a{
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+
+  <style>
+    div#ql{
+      background-color: #80e2ff;
+      height: 1000px;
+      width: auto;
+      padding-top: 5px;
+    }
+    div#more1{
+      position: relative;
+      float: right;
+      margin-right: 250px;
+      background-color: darkslateblue;
+      height: 100px;
+      margin-top: -5px;
+      color: white;
+    }
+    div#more1 a{
+      color: white;
+      text-decoration: none;
+    }
+    div#topQ{
+      position: relative;
+      float: left;
+      margin-left: 250px;
+      background-color: darkslateblue;
+      height: 100px;
+      margin-top: -10px;
+      color: white;
+    }
+    div#topQ a{
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+
+  <style>
+    div#cv{
+      height: 1000px;
+      width: auto;
+      background-color: #926ac0;
+      color: white;
+      padding-top: 10px;
+    }
+    div#cv1{
+      border: solid 2px black;
+      background-color: white;
+      color:darkcyan;
+      height:400px;
+      width: 700px;
+      font-size: 30px;
+      font-family: helvetica;
+    }
+    div#top a{
+      color: white;
+      text-decoration: none;
+    }
+
+  </style>
+  <meta charset="UTF-8">
+  <title>Home</title>
+</head>
+<body>
+
+
+<div id="h">
+  <br/>
+
+
+  <center><div id="hi" align="center">
+    <h1 style="font-family: helvetica; font-size: 100px;color: white; padding-top: 20px; margin-top: 37px;">Hi</h1>
+  </div></center>
+
+
+  <div id="km" align="center">
+    <h1 style="font-family: helvetica; font-size: 50px;color: white; margin-top: 20px;"><a href="#dados" class="scroll">Know me</a></h1>
+  </div>
+
+  <center><div id="im" align="center">
+    <h1 style="font-family: helvetica; font-size: 100px;color: white; padding-top: 20px; margin-top: 40px">I am</h1>
+  </div></center>
+
+  <center><div id="luiz" align="center">
+    <h1 style="font-family: helvetica; font-size: 100px;color: white; padding-top: 20px; margin-top: 40px">LUIZ</h1>
+  </div></center>
+
+  <!-- <center><span style="font-family: helvetica; font-size: 30px; color: white;">Welcome to my website</span></center> -->
+
+
+
+</div>
+
+<div id="dados">
+
+  <div id="more">
+    <h2 style="text-align: center; font-family: helvetica; font-size: 50px;"><a href="#ql" class="scroll">More</a></h2>
+  </div>
+
+  <div id="topD">
+    <h2 style="text-align: center; font-family: helvetica; font-size: 50px;"><a href="#h" class="scroll">Top</a></h2>
+  </div>
+
+  <center><div id="h2">
+    <h2 style="text-align: center; font-family: helvetica; font-size: 50px; padding-top: 37px;">Personal Info</h2>
+  </div></center>
+
+
+
+
+
+  <div id="data" align="center">
+    I'm <span style="padding: 2px; background-color: #7a4458">Luiz Otávio Andrade Soares</span> <br/> <br/>
+    I live at <span style="padding: 2px; background-color: #757a50">571, Ouro Preto Str</span><br/><br/>
+    You can call me at <span style="padding: 2px; background-color: #7a4458">+55 37 9 8825 1272</span> and<br/><br/>
+    Email me at <span style="padding: 2px; background-color: #757a50">luizotavioasoares@gmail.com</span>
+  </div>
+
+
+
+</div>
+
+<div id="ql">
+
+  <div id="more1">
+    <h2 style="text-align: center; font-family: helvetica; font-size: 50px;"><a href="#cv" class="scroll">More</a></h2>
+  </div>
+
+  <div id="topQ">
+    <h2 style="text-align: center; font-family: helvetica; font-size: 50px;"><a href="#h" class="scroll">Top</a></h2>
+  </div>
+
+
+  <h1 style="font-family: helvetica; text-align: center; font-size: 70px; margin-top: 0px; margin-left: 50px">Details</h1><br/>
+
+	  	<span style="font-family: helvetica; font-size: 15px; color: black">
+
+
+			<ul>
+			  <h1>Tech knowledge</h1>
+			  <li>C++</li>
+			  <li>JAVA</li>
+			  <li>Web Development</li>
+			</ul>
+
+		  	<ul>
+			  <h1>Languages</h1>
+			  <li>Advanced English</li>
+			  <li>Pro Portuguese</li>
+			</ul>
+
+		  	<ul>
+			  <h1>Events</h1>
+			  <li>None</li>
+			</ul>
+
+			<ul>
+			  <h1>Professional Exp</h1>
+			  <li>None</li>
+			</ul>
+
+		  	<ul>
+			  <h1>Interests</h1>
+			  <li>Programming in all areas</li>
+			  <li>Web Development</li>
+			  <li>Tech Support</li>
+			</ul>
+
+
+		</span>
+</div>
+
+<div id="cv">
+  <h2 style="font-family: helvetica; text-align: center; font-size: 50px">Academic Formation</h2>
+
+  <center><div id="cv1" align="center">
+    <br/>
+    High School::CEFET-MG<br/><br/>
+    Graduation::UFMG<br/><br/>
+    Master in Digital Security by UFMG<br/><br/>
+    Doctor in Cryptografy by UFMG<br/>
+  </div></center>
+
+  <div id="top" align="center">
+    <h2 style="margin-bottom: 0px;margin-top: 20px"><a href="#h" class="scroll">Top</a></h2>
+  </div>
+
+
+</div>
+
+</body>
+</html>

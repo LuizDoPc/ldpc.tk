@@ -1,0 +1,57 @@
+.menu{
+    width: 15vw;
+    height: 80vh;
+    background-color: #19404F;
+}
+.menu h1{
+    margin-top: -0vh;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+.menu li{
+    list-style: none;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    background-color: #3A2716;
+}
+.menu li#contato{
+    margin-top: 20vh;
+    padding-top: 30px;
+    height: 10vh;
+    width: 10vw;
+
+}
+.menu li#produtos{
+    margin-top: 20vh;
+    padding-top: 30px;
+    height: 10vh;
+    width: 10vw;
+
+}
+.menu a{
+    text-decoration: none;
+    color: #F2DCA2;
+}
+.header{
+    height: 10vh;
+    background-color: #5D3F23;
+}
+.header a{
+    text-decoration: none;
+    color: #F2DCA2;
+    margin-left: 48vw;
+    font-size: 20px;
+
+}
+.header h1{
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #3A2716;
+    color: #F2DCA2;
+}
+.conteudo{
+    background-color: #F2DCA2;
+    color: white;
+}

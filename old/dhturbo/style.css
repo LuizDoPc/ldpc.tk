@@ -1,0 +1,73 @@
+@charset "UTF-8";
+body{
+    background-color: #dddddd;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+}
+div#cbc{
+    background-color: #606060;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-left: -8px;
+    padding: 0px 0px 0px 574px;
+    width: 800px;
+    font-size: 20px;
+}
+h1#tt {
+    position: relative;
+    left: 0px;
+}
+h2#st{
+    position: relative;
+    left: -90px;
+}
+nav#menu{
+    display="block";/*permite flutuar*/
+}
+nav#menu h1#ni {
+    position: absolute;
+    top: -20px;
+    left: 180px;
+    font-family: Arial;
+    text-shadow: 1px 1px 1px #606060;
+    font-size: xx-large;
+
+}
+nav#menu ul{
+    list-style: none; /*tira os pontinhos*/
+    text-transform: uppercase;/*coloca em maiusculo*/
+    position: absolute;/*permite flutuar sobre o site todo */
+    top: -20px;
+    left: 440px;
+}
+nav#menu li{
+    display: inline-block; /*coloca um do lado do outro*/
+    background-color: #dddddd;
+    padding: 10px; /*espaço dentro do obj*/
+    margin: 2px;  /*espaço fora do obj*/
+    transition: background-color 1s; /*trasiçao da cor do bg*/
+    /*faz a linha de cima funcionar em navegadores antigos*/
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+}
+nav#menu li:hover { /*acontece quando passa o mouse por cima*/
+    background-color: #606060;
+}
+nav#menu a{
+    color: black; /*faz o link ficar preto*/
+    text-decoration: none; /*tira o sublinhado*/
+}
+nav#menu a:hover{
+    color: white;/*fica branco quando passa o mouse por cima*/
+}
+div#interface {
+    width: 1336px;
+    margin: 50px 0px 0px -10px;
+}
+figure.temp img{
+    position: relative;
+    width: 100%;
+    height: 100%    ;
+}

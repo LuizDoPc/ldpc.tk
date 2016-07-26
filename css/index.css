@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+#home{
+    width: 98.7vw;
+    height: 100vh;
+    background: url("../img/bg.jpg");
+}
+.titulos{
+    color: white;
+    font-family: Impact;
+    font-size: 10vw;
+    margin-left: 35%;
+}
+.item{
+    width: 10vw;
+    height: 3vw;
+    border: solid 4px white;
+    color: white;
+    font-family: "Brie Light";
+    font-size: 2.5vw;
+    margin-top: 4vw;
+    position: inherit;
+    margin-left: 45%;
+}
+.txtitem:hover{
+    text-decoration: underline;
+}
+
+#sobre{
+    width: 98.7vw;
+    height: 100vh;
+}
+
+#txtsobre{
+    color: black;
+    font-family: Impact;
+    font-size: 10vw;
+    margin-left: 5%;
+}
+#sobremin{
+    border: solid black 4px;
+    margin-left: 35%;
+    width: 30vw;
+    height: 20vw;
+    font-family: Impact;
+    font-size: 1.3vw;
+    padding-top: 1vw;
+    margin-top: 5vw;
+}
+
+
+footer{
+    background: gray;
+    width: 98.7vw;
+    height: 10vw;
+    color: white;
+}
+footer div{
+    padding-top: 2vw;
+    margin-left: 45%;
+}

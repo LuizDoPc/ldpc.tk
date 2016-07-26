@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+            });
+        });
+    </script>
+    <meta charset="UTF-8">
+    <title>Home LDPC.TK</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="home">
+    <span class="titulos">LDPC.TK</span>
+    <a href="index.html">
+        <div class="item" align="center">
+            <span class="txtitem">Home</span>
+        </div>
+    </a>
+    <a href="vaca.html">
+        <div class="item" align="center">
+            <span class="txtitem">Vaca</span>
+        </div>
+    </a>
+</div>
+
+<footer>
+    <div>
+        <i>"Copia pro c vê!" - O criador</i><br><br><br><br>
+        Developed by: Luiz Soares
+    </div>
+
+</footer>
+
+</body>
+</html>

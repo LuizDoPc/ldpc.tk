@@ -1,0 +1,79 @@
+@charset "UTF-8";
+body{
+    text-align: center;
+    background: url("../_IMG/BG.jpg") no-repeat;
+}
+figure.background img {
+    width: 80%;
+    height: 100%;
+}
+h1#wow{
+    font-family: Arial, sans-serif;
+    font-size: 200pt;
+}
+figure.background{
+    position: relative;
+    border: 8px black;
+    box-shadow: 1px 1px 4px black;
+}
+figure.background figcaption{
+    color: white;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,.4);
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+figure.background:hover figcaption{
+    opacity: 1;
+    color: black;
+}
+nav#menu{
+    display: "block";/*permite flutuar*/
+    padding: 10px;
+}
+nav#menu h1#ni {
+    position: absolute;
+    top: -20px;
+    left: 180px;
+    font-family: Arial, sans-serif;
+    text-shadow: 1px 1px 1px #606060;
+    font-size: xx-large;
+
+}
+nav#menu ul{
+    list-style: none; /*tira os pontinhos*/
+    text-transform: uppercase;/*coloca em maiusculo*/
+    position: absolute;/*permite flutuar sobre o site */
+    top: -20px;
+    left: 300px;
+}
+nav#menu li{
+    display: inline-block; /*coloca um do lado do outro*/
+    background-color: #dddddd;
+    padding: 10px; /*espaço dentro do obj*/
+    margin: 2px;  /*espaço fora do obj*/
+    transition: background-color 1s; /*trasiçao da cor do bg*/
+    /*faz a linha de cima funcionar em navegadores antigos*/
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+}
+nav#menu li:hover { /*acontece quando passa o mouse por cima*/
+    background-color: #606060;
+}
+nav#menu a{
+    color: black; /*faz o link ficar preto*/
+    text-decoration: none; /*tira o sublinhado*/
+}
+nav#menu a:hover{
+    color: white;/*fica branco quando passa o mouse por cima*/
+}
+h1:hover{
+    color: black;
+}
