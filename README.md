@@ -1,2 +1,2 @@
 # ldpctk
-Web site pessoal com coisas aleatorias https://github.com/LuizDoPc/ldpc.tk.git
+Web site pessoal com coisas aleatorias https://ldpctk.000webhostapp.com/
